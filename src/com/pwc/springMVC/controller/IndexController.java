@@ -33,4 +33,18 @@ public void delete() {
 	System.out.println("invoke delete method start.");
 	
 }
+
+@RequestMapping("/searchAll")
+public void searchAll() {
+	
+	System.out.println("invoke searchAll method start.");
+	
+}
+
+@RequestMapping("/conflict")
+public void conflict() {
+	
+	System.out.println("invoke conflict method start.");
+	
+}
 }
